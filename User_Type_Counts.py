@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov  5 01:05:52 2021
-
-@author: KongM
-"""
+#A/B testing was done by a vendor. however, user splitting was spotty (sometimes could split users correctly and sometimes could not)
+#when user splitting did not work, a user would see different versions of a page when navigating. So, Page A -> Page B -> Page A'
+#where Page A' is an altered version of Page A
+#This provides the %s and samples charts for the user split using parameter inputs.
+#The value here is the SQL logic, which is dynamic depending on inputs
 
 import sys
 sys.path.insert(1,'C:/Users/KongM/Desktop/Python/Critical Code')
